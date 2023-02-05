@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird in Desmos</title>
+</head>
+<body>
+    <div id="calculator" style="width: 360px; height: 600px;"></div>
+    <script src="https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+    <script>
+        var elt = document.getElementById('calculator');
+        var calc = Desmos.GraphingCalculator(elt);
+        fetch('https://raw.githubusercontent.com/kanagrou/flappy-bird/main/src/calc.json')
+            .then(res => res.json())
+            .then(state => calc.setState(state))
+      </script>
+</body>
+</html>
