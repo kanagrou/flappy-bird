@@ -3,7 +3,7 @@ A Flappy Bird clone made in the [Desmos Graphing Calculator](https://www.desmos.
 
 ## 🕹️ Try it out
 ### 📘 From this repository
-1. Go to this repository's [web page](https://kanagrou.github.com/flappy-bird)
+1. Go to this repository's [web page](https://kanagrou.github.io/flappy-bird/)
 2. Have fun!
 
 ### 📗 From Desmos
